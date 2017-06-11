@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_fav"
+        android:title="@string/Favourite"
+        app:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/offline"
+        android:title="Offline Mode "
+        app:showAsAction="never"
+
+        />
+    <item android:title="search"
+
+        android:id="@+id/search_bar"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        >
+    </item>
+
+
+</menu>
